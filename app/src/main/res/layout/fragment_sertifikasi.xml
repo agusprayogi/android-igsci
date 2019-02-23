@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sourcey.materiallogindemo.SertifikasiFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Sertifikasi"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="@color/jet"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sertifikasi"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/baseline_book_black_24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:text="Sertifikasi maintenence and hosting website ..."
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="73dp"
+            android:layout_height="36dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="150dp"
+            android:text="daftar"
+            android:textSize="10dp"
+            android:id="@+id/btn_sertifikasi"/>
+
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

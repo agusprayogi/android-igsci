@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/baseline_dashboard_black_24dp"
+        android:title="@string/nav_dashboard" />
+    <item
+        android:id="@+id/nav_sertifikasi"
+        android:icon="@drawable/baseline_book_black_24dp"
+        android:title="@string/nav_sertifikasi" />
+    <item
+        android:id="@+id/nav_pelatihan"
+        android:icon="@drawable/baseline_assignment_late_black_24dp"
+        android:title="@string/nav_pelatihan" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/baseline_account_circle_black_24dp"
+        android:title="@string/nav_account" />
+</menu>
